@@ -149,4 +149,3 @@ Purpose:
 - Dev Post: <http://devpost.com/software/attack-bots>{:target="_blank"}
 - GitHub: <https://github.com/worthingtonjg/AttackBots>{:target="_blank"}
 - Play At: <http://www.wetechgroup.com/UnityGames/AttackBots/index.html>{:target="_blank"}
-- Xbox Controller is required to play this game
