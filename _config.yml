@@ -1,27 +1,27 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
-email: gayanvirajith@gmail.com
+title: Saving the world
+tagline: one line of code at a time
+email: worthingtonjg@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I’m a professional UI/UX designer and web developer. 
   I love being minimal and creative.
-baseurl: "/gaya" # the subpath of your site, e.g. /blog/
-url: "http://gayan.me" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://worthingtonjg.github.io/" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Tom Warlker"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+author: "Jonathan Worthington"
+author_thumbnail: "https://avatars3.githubusercontent.com/u/5515340?v=3&s=460" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
+    github: worthingtonjg
+    # twitter: gayanvirajith
+    facebook: worthingtonjg
+    # gplus: +gayanvirajith
     # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    # pinterest: gayanvirajith
 
   # Enable share buttons on post footer
   show_share_buttons: true
