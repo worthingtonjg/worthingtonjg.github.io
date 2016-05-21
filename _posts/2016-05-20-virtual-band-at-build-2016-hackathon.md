@@ -11,7 +11,7 @@ browser_title: 'Virtual Band at Build 2016 Hackathon'
 banner_image: virtual-band.png
 ---
 
-I attended the after conference [Hackathon](http://build-2016-hackathon.devpost.com/submissions) at Microsoft Build 2016 with a couple of buddies (Alan and Matt) from work. We had a ton of fun and created a pretty cool app that we named Virtual Band.
+I attended the after conference [Hackathon](http://build-2016-hackathon.devpost.com/submissions){:target="_blank"} at Microsoft Build 2016 with a couple of buddies (Alan and Matt) from work. We had a ton of fun and created a pretty cool app that we named Virtual Band.
 
 Below is a video we created at the Hackathon that documents our application (sorry for the poor quality as it was recorded with my cell phone).
 
