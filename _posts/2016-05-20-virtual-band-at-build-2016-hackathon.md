@@ -21,12 +21,17 @@ Below is a video we created at the Hackathon that documents our application (sor
 
 ## Inspiration
 
-My wife and I got Microsoft Bands for Christmas.  She has a Band 1 and I have a Band 2.  As such we've been spending a lot of time running and walking on our treadmill and I am always looking for ways to entertain myself.  We were inspired by this to create the Virtual Band.  An app that allows you to run through a landscape of your choice using just your treadmill, a tablet and your Microsoft Band.
+My wife and I got Microsoft Bands for Christmas.  She has a Band 1 and I have a Band 2.  As such we've been spending a lot of time running and 
+walking on our treadmill and I am always looking for ways to entertain myself.  We were inspired by this to create the Virtual Band.  An app 
+that allows you to run through a landscape of your choice using just your treadmill, a tablet and your Microsoft Band.
 
 
 ## What it does
 
-The app allows you to put your tablet or phone on your treadmill and run through a virtual world either by yourself or with your friends using your Microsoft Band (works with Band 1 and Band 2) to move you forward at the speed you are really running or walking.  We also collect Heart Rate, Speed, and Calorie data from the Band and display it in a HUD in the application.  This makes running more enjoyable and gives you a much more enjoyable treadmill experience.
+The app allows you to put your tablet or phone on your treadmill and run through a virtual world either by yourself or with your friends using 
+your Microsoft Band (works with Band 1 and Band 2) to move you forward at the speed you are really running or walking.  We also collect Heart Rate, 
+Speed, and Calorie data from the Band and display it in a HUD in the application.  This makes running more enjoyable and gives you a much more 
+enjoyable treadmill experience.
 
 
 ## How we built it 
@@ -45,13 +50,16 @@ SignalR and Azure websites to allow support for multi-player
 
 ### Source Control
 
-We used TFS as our source control during the hackathon.  Initially we had trouble getting all the right files from our Unity project checked in.  Once we got all the right files checked in we were up and going, but source control continued to be a problem throughout the project since we could not manage files directly in Unity.  Having an embedded source control system would help immensely in this situation.
+We used TFS as our source control during the hackathon.  Initially we had trouble getting all the right files from our Unity project checked in.  
+Once we got all the right files checked in we were up and going, but source control continued to be a problem throughout the project since we could 
+not manage files directly in Unity.  Having an embedded source control system would help immensely in this situation.
 
 ### Enable Visible Meta Files
 
-You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to Edit->Project Settings->Editor.  Here is a link that talks about this:
+You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to 
+Edit->Project Settings->Editor.  Here is a link that talks about this:
 
-http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
+[](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html)
 
 ### Enable Unity C# Project in Unity Build Settings
 
