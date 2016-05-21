@@ -8,7 +8,7 @@ category:
 - Games
 meta_description: 'Creating Relic Hunter at the Global Game Jam 2016'
 browser_title: 'Creating Relic Hunter at the Global Game Jam 2016'
-banner_image: relic-hunter-1.png
+banner_image: relic_hunter-1.png
 ---
 
 I participated in the 2016 Global Gam Jam with my two sons and a couple of my friends from work.  The theme of the game jam was "Ritual".  
