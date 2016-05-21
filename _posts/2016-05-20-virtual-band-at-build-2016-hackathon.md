@@ -59,13 +59,14 @@ not manage files directly in Unity.  Having an embedded source control system wo
 You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to 
 Edit->Project Settings->Editor.  Here is a link that talks about this:
 
-[](http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html)
+<http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>
 
 ### Enable Unity C# Project in Unity Build Settings
 
-In the build settings in Unity you need to make sure to check the box for "Unity C# Projects".  This allows you to debug your c# scripts in Visual studio when running your output project.  This link discuss why you should do this:
+In the build settings in Unity you need to make sure to check the box for "Unity C# Projects".  This allows you to debug your c# scripts in Visual 
+studio when running your output project.  This link discuss why you should do this:
 
-http://docs.unity3d.com/Manual/windowsstore-debugging.html
+<http://docs.unity3d.com/Manual/windowsstore-debugging.html>
 
 ### Outputting the Windows Store App from Unity
 
@@ -73,72 +74,91 @@ In your Unity Build settings you can choose which platform you want to target.  
 
 When you build your project for the first time it generates all the files that you need for your UWP application. 
 
-Each subsequent build in Unity only re-generates the Unity specific files and code.  This is really important to understand, because that means you can make changes to the .xaml and .cs files in the Windows 10 part of the app and retain these changes between builds. 
+Each subsequent build in Unity only re-generates the Unity specific files and code.  This is really important to understand, because that means you 
+can make changes to the .xaml and .cs files in the Windows 10 part of the app and retain these changes between builds. 
 
 ### Files You Don't Check In
 
-You should not check-in anything in the \Asset\Library\ folder
-If you aren't making any changes to your resulting output project then you don't need to check that folder in either, since you can just regenerate it.
-However in our case we did need to make changes to that part of the project, so had to check it in.   In this case you should not check in anything from your "bin" or "obj" folders.  We ended up checking everything else in (although we might have been overzealous here).
-Building the UWP application
+* You should not check-in anything in the \Asset\Library\ folder
+* If you aren't making any changes to your resulting output project then you don't need to check that folder in either, since you can just regenerate it.
+* However in our case we did need to make changes to that part of the project, so had to check it in.   In this case you should not check in anything from your "bin" or "obj" folders.  We ended up checking everything else in (although we might have been overzealous here).
+
+###Building the UWP application
 
 When you open up the UWP solution that gets generated, you should see three projects:
-Assembly-CSharp (Universal Windows)
-Assembly-CSharp-firstpass (Universal Windows)
-[Your app name] (Universal Windows)
-The last project named with your project name is the actual UWP application and is what you build and deploy on your machine.  However, we seemed to get build errors if we did not manually build the other two projects first.  So if you are getting errors, make sure you manually build those other two projects before you run your UWP application.
+
+* Assembly-CSharp (Universal Windows)
+* Assembly-CSharp-firstpass (Universal Windows)
+* [Your app name] (Universal Windows)
+
+The last project named with your project name is the actual UWP application and is what you build and deploy on your machine.  However, we seemed to get 
+build errors if we did not manually build the other two projects first.  So if you are getting errors, make sure you manually build those other two projects 
+before you run your UWP application.
 
 ### Band API
 
-The Band API was easy to use overall.  However one thing we quickly discovered was that the band does not report distance and speed as quickly as we would have liked.  The band reports this data 5 to 10 seconds behind.  So when you first launch the application and start running there is a several second delay before you start moving through the world.
+The Band API was easy to use overall.  However one thing we quickly discovered was that the band does not report distance and speed as quickly as we 
+would have liked.  The band reports this data 5 to 10 seconds behind.  So when you first launch the application and start running there is a several 
+second delay before you start moving through the world.
 
 We did attempt to use the accelerator to detect movement early before distance and speed is reported, but ran out of time before we could implement this feature.
 
 The Sensor Data we are consuming is:
 
-Distance
-Speed
-Heart Rate
-Calories
+* Distance
+* Speed
+* Heart Rate
+* Calories
 
 Overall using the band API's was pretty easy.  For more information on using the Microsoft Band API see the links below:
 
-https://developer.microsoftband.com/
+<https://developer.microsoftband.com/>
 
 ### SignalR and Azure
 
-Using Microsoft Azure free websites we setup a SignalR web app.  This allowed us to very simply implement multiplayer support in our application.  Every second we send a message up to the website reporting the player's current position and velocity.  This data is then sent by SignalR down to any other connected clients.
+Using Microsoft Azure free websites we setup a SignalR web app.  This allowed us to very simply implement multiplayer support in our application.  
+Every second we send a message up to the website reporting the player's current position and velocity.  This data is then sent by SignalR down to 
+any other connected clients.
 
 Below are some links to some tutorials we followed to help implement this...
 
-http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites
-http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html
+<http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>
+<http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>
 
 ### Unity and AppCallback
 
-We found out very quickly that we could not implement the Band API directly in Unity.  We also found out that the SignalR library could not be used in Unity directly either (at least not without purchasing a third party plug-in from the asset store)
+We found out very quickly that we could not implement the Band API directly in Unity.  We also found out that the SignalR library could not be used in 
+Unity directly either (at least not without purchasing a third party plug-in from the asset store)
 
-Fortunately we were able to get around this by using Unity's AppCallback class.  This class is available from the Windows 10 app code, and allows you to send messages to and from Unity.
+Fortunately we were able to get around this by using Unity's AppCallback class.  This class is available from the Windows 10 app code, and allows you to 
+send messages to and from Unity.
 
 Below are some links documenting how this is done.
 
 http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html
 http://docs.unity3d.com/Manual/windowsstore-examples.html
 
-By using the AppCallback class we where able to use the Band Libraries and SignalR libraries in our Windows 10 application and send messages to and from the Unity player.  However, this meant we had to make changes to the project that Unity generates when it builds.  It turned out that this is not a problem because Unity doesn't change the Windows 10 .xaml or .cs files after it spits them out for the first time.  All subsequent builds just update the Unity portion of the project.
+By using the AppCallback class we where able to use the Band Libraries and SignalR libraries in our Windows 10 application and send messages to and from 
+the Unity player.  However, this meant we had to make changes to the project that Unity generates when it builds.  It turned out that this is not a problem 
+because Unity doesn't change the Windows 10 .xaml or .cs files after it spits them out for the first time.  All subsequent builds just update the Unity 
+portion of the project.
 
 
 ### Unity Terrain Tips and Tricks
 
-I had a bunch of problems trying to get our Unity Terrain to work at a good frame rate.  In the first version of the terrain I scaled back many of the Camera and Terrain settings as well as the quality settings to try and get things to run at a smooth frame rate.  These changes worked, but made our game look fairly ugly and old.  We also had problems with the way steep slopes look due to the way the default terrain shader works.
+I had a bunch of problems trying to get our Unity Terrain to work at a good frame rate.  In the first version of the terrain I scaled back many of the 
+Camera and Terrain settings as well as the quality settings to try and get things to run at a smooth frame rate.  These changes worked, but made our 
+game look fairly ugly and old.  We also had problems with the way steep slopes look due to the way the default terrain shader works.
 
-After doing some research (see links below).  I was able to optimize our textures and implement some post processing effects that make our game look really great.  This is really an entire topic of it's own, so I will just post the links I used to research this.  But another post would be needed to do it justice.
+After doing some research (see links below).  I was able to optimize our textures and implement some post processing effects that make our game look 
+really great.  This is really an entire topic of it's own, so I will just post the links I used to research this.  But another post would be needed 
+to do it justice.
 
 Links:
 
-http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/
-https://www.assetstore.unity3d.com/en/#!/content/3224
-https://www.assetstore.unity3d.com/en/#!/content/44225
+<http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>
+<https://www.assetstore.unity3d.com/en/#!/content/3224>
+<https://www.assetstore.unity3d.com/en/#!/content/44225>
 
 Before Optimization and Image Effects (running at 40 fps):
 
@@ -164,5 +184,5 @@ We had a great time at the Hackathon - thanks Microsoft Build!
 
 ##Source Code and Devpost Links
 
-https://github.com/worthingtonjg/virtualband
-http://devpost.com/software/virtual-band-0xcgwp
+<https://github.com/worthingtonjg/virtualband>
+<http://devpost.com/software/virtual-band-0xcgwp>
