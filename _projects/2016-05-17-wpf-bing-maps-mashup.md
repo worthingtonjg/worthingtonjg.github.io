@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "Installing apache2, php5 and MySQL support on Ubuntu 12.04"
+title: "Implementing Mapping With the Wpf Bing Maps control"
 category: 
-- Unity3d
-- Hackathon
-- Global Game Jam 2016
-- Games
-meta_description: 'Installing apache2, php5 and MySQL support on Ubuntu 12.04'
-browser_title: 'Installing apache2, php5 and MySQL support on Ubuntu 12.04'
+- WPF
+- C#
+- Bing Maps
+meta_description: 'Implementing Mapping With the Wpf Bing Maps control'
+browser_title: 'Implementing Mapping With the Wpf Bing Maps control'
 ---
 
 Wpf Bing maps mashup
