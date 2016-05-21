@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Installing apache2, php5 and MySQL support on Ubuntu 12.04"
+title: "Lds.org web app with Angular and Bootstrap"
 category: 
 - Angular
 - Bootstrap
 - Business Application
-meta_description: 'Installing apache2, php5 and MySQL support on Ubuntu 12.04'
-browser_title: 'Installing apache2, php5 and MySQL support on Ubuntu 12.04'
+meta_description: 'Lds.org web app with Angular and Bootstrap'
+browser_title: 'Lds.org web app with Angular and Bootstrap'
 ---
 
 Stake Conference Reporting tool
