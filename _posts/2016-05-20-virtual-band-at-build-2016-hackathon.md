@@ -2,9 +2,10 @@
 layout: post
 title: "Virtual Band at Build 2016 Hackathon"
 category: 
-- ubuntu
-- guide
-permalink: virtual-band-at-build-2016-hackathon
+- unity3d
+- c#
+- uwp
+- hackathon
 meta_description: 'Virtual Band at Build 2016 Hackathon'
 browser_title: 'Virtual Band at Build 2016 Hackathon'
 banner_image: virtual-band.png
