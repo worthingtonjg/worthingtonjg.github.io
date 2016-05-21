@@ -32,6 +32,8 @@ The level was designed entirely in blender by Matt Morey and Nathan Worthington.
 
 ## Scripting
 
+When creating the scripts for the game we tried to keep each script small and re-usable with only one purpose.  We use SendMessage to send messages between components, allowing each script to have it's own responsbilities but still communicate with other components.
+
 ### Door
 
 Purpose:
