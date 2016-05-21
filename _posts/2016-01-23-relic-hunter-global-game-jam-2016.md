@@ -14,15 +14,21 @@ I participated in the 2016 Global Gam Jam with my two sons and a couple of my fr
 
 The game we made is called Relic Hunter.  Below is the intro screen to our game:
 
-![Before Optimization](/assets/images/relic_hunter-2.png) 
+![Intro screen](/assets/images/relic_hunter-2.png) 
 
-Jam Site: [IGDA Salt Lake City](http://globalgamejam.org/2016/jam-sites/igda-salt-lake-city){:target="_blank"}
+## How we made it
 
-Links:
+We used two main tools to create this game: Blender and Unity3d
 
-- GitHub: <https://github.com/worthingtonjg/RelicHunter>
-- Play At: <http://www.wetechgroup.com/UnityGames/RelicHunter/index.html>
-- Xbox Controller is required to play this game
+### Level Design
+
+
+### Ship Models and Pickups
+
+
+## Challenges we ran into
+
+
 
 ## Gam Jam Participants
 
@@ -33,7 +39,7 @@ Links:
 - Cameron Byer, Brooklyn Byer and Ryan Worthington ~ Additional Level Design & Testing 
 - Michael Fewkes ~ Game Music 
 
-### External Art Work, Music and Toolkits Used from Unity Asset Store:
+## External Art Work, Music and Toolkits Used from Unity Asset Store:
 
 - Scene Transitions Fungus Games Toolkit
 - Metal Mayhem Music Pack Unity Technologies
@@ -49,3 +55,10 @@ Links:
 - Ultra Emissive ParticlesGalactic Studios
 - Free ArtskillZ Textures Luca Eberhart
 - Scifi Textures  ArtzkillZ Texture Pack
+
+## Links:
+
+- Jam Site: [IGDA Salt Lake City](http://globalgamejam.org/2016/jam-sites/igda-salt-lake-city){:target="_blank"}
+- GitHub: <https://github.com/worthingtonjg/RelicHunter>
+- Play At: <http://www.wetechgroup.com/UnityGames/RelicHunter/index.html>
+- Xbox Controller is required to play this game
