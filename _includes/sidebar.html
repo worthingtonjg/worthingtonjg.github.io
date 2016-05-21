@@ -42,13 +42,6 @@ styles and `#sidebar-toggle-checkbox` for behavior.
       {{ item.title }}
     </a>
     {% endfor %}
-
-    <a class="sidebar-nav-item" 
-      href="http://github.com/{{ site.theme.social.github }}"
-      target="_blank">
-      GitHub/Download
-    </a>
-
   </nav>
 
   <div class="sidebar-info small">
@@ -59,6 +52,14 @@ styles and `#sidebar-toggle-checkbox` for behavior.
   </div>
 
   {% include social.html %}
+
+  <div>
+      <a class="sidebar-nav-item"
+      href="http://github.com/{{ site.theme.social.github }}"
+      target="_blank">
+      GitHub/Download
+    </a>
+  </div>
 
 </div>
 {% endcapture %}{{ sidebar | strip_newlines }}
