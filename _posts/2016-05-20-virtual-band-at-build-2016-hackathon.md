@@ -4,6 +4,8 @@ title: "Virtual Band at Build 2016 Hackathon"
 category: 
 - unity3d
 - c#
+- signalr
+- azure
 - uwp
 - hackathon
 meta_description: 'Virtual Band at Build 2016 Hackathon'
@@ -59,14 +61,14 @@ not manage files directly in Unity.  Having an embedded source control system wo
 You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to 
 Edit->Project Settings->Editor.  Here is a link that talks about this:
 
-<http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>{:target="_blank"}
+* <http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>{:target="_blank"}
 
 ### Enable Unity C# Project in Unity Build Settings
 
 In the build settings in Unity you need to make sure to check the box for "Unity C# Projects".  This allows you to debug your c# scripts in Visual 
 studio when running your output project.  This link discuss why you should do this:
 
-<http://docs.unity3d.com/Manual/windowsstore-debugging.html>{:target="_blank"}
+* <http://docs.unity3d.com/Manual/windowsstore-debugging.html>{:target="_blank"}
 
 ### Outputting the Windows Store App from Unity
 
@@ -122,8 +124,8 @@ any other connected clients.
 
 Below are some links to some tutorials we followed to help implement this...
 
-<http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>{:target="_blank"}
-<http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>{:target="_blank"}
+* <http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>{:target="_blank"}
+* <http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>{:target="_blank"}
 
 ### Unity and AppCallback
 
@@ -135,8 +137,8 @@ send messages to and from Unity.
 
 Below are some links documenting how this is done.
 
-<http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html>{:target="_blank"}
-<http://docs.unity3d.com/Manual/windowsstore-examples.html>{:target="_blank"}
+* <http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html>{:target="_blank"}
+* <http://docs.unity3d.com/Manual/windowsstore-examples.html>{:target="_blank"}
 
 By using the AppCallback class we where able to use the Band Libraries and SignalR libraries in our Windows 10 application and send messages to and from 
 the Unity player.  However, this meant we had to make changes to the project that Unity generates when it builds.  It turned out that this is not a problem 
@@ -156,9 +158,9 @@ to do it justice.
 
 Links:
 
-<http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>{:target="_blank"}
-<https://www.assetstore.unity3d.com/en/#!/content/3224>{:target="_blank"}
-<https://www.assetstore.unity3d.com/en/#!/content/44225>{:target="_blank"}
+* <http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>{:target="_blank"}
+* <https://www.assetstore.unity3d.com/en/#!/content/3224>{:target="_blank"}
+* <https://www.assetstore.unity3d.com/en/#!/content/44225>{:target="_blank"}
 
 Before Optimization and Image Effects (running at 40 fps):
 
@@ -168,15 +170,17 @@ After Optimizations and Image Effects (running at 60+ fps)
 
 ![After Optimization](/assets/images/virtual-band-after.png)
 
-##What's next for Virtual Band 
+## What's next for Virtual Band 
 
-We think the app turned out really good for the time that we had. As with any hackathon much of our code needs to be re-written to be more maintainable (so if you look at our code repository, just keep in mind we wrote this in less than 24 hours with only a couple of hours of sleep)
+We think the app turned out really good for the time that we had. As with any hackathon much of our code needs to be re-written to be more 
+maintainable (so if you look at our code repository, just keep in mind we wrote this in less than 24 hours with only a couple of hours of sleep)
 
-We would like to implement voice recognition to be able to let the user decide which routes to take in a particular level. We also would like to add additional levels - like beaches, cities or parks. Finally we would like to add in animated characters to represent friends who are playing with you.
+We would like to implement voice recognition to be able to let the user decide which routes to take in a particular level. We also would like to add 
+additional levels - like beaches, cities or parks. Finally we would like to add in animated characters to represent friends who are playing with you.
 
 We had a great time at the Hackathon - thanks Microsoft Build!
 
-##Source Code and Devpost Links
+## Source Code and Devpost Links
 
-<https://github.com/worthingtonjg/virtualband>{:target="_blank"}
-<http://devpost.com/software/virtual-band-0xcgwp>{:target="_blank"}
+* <https://github.com/worthingtonjg/virtualband>{:target="_blank"}
+* <http://devpost.com/software/virtual-band-0xcgwp>{:target="_blank"}
