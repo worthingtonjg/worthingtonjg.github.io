@@ -19,7 +19,7 @@ We had a ton of fun and created a pretty cool app that we named Virtual Band.
 
 Below is a video we created at the Hackathon that documents our application (sorry for the poor quality as it was recorded with my cell phone).
 
-[![Youtube video of virtualband video](https://www.youtube.com/watch?v=vnmaVJ6bn6k](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE){:target="_blanks"}
+[![Youtube video of virtualband video](https://www.youtube.com/watch?v=vnmaVJ6bn6k](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE){:target="_blank"}
 
 ## Inspiration
 
