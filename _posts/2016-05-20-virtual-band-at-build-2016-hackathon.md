@@ -59,7 +59,7 @@ not manage files directly in Unity.  Having an embedded source control system wo
 You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to 
 Edit->Project Settings->Editor.  Here is a link that talks about this:
 
-<http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>
+<http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>{:target="_blank"}
 
 ### Enable Unity C# Project in Unity Build Settings
 
