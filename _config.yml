@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   I love being minimal and creative.
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://worthingtonjg.github.io/" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
+logourl: "/assets/images/logo.png" # Site logo
 author: "Jonathan Worthington"
 author_thumbnail: "https://avatars3.githubusercontent.com/u/5515340?v=3&s=460" # Author avatar
 # Theme customization - please change from the defaults!
