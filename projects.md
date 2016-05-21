@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-banner_image: sample-banner-image-3.jpg
+banner_image: sample-banner-image-4.jpg
 ---
 
 <div>
