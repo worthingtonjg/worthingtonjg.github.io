@@ -24,7 +24,7 @@ Below is a video we created at the Hackathon that documents our application (sor
 
 ## Inspiration
 
-My wife and I got Microsoft Bands for Christmas.  She has a Band 1 and I have a Band 2.  As such we've been spending a lot of time running and 
+I got a couple of Microsoft Bands for Christmas.  Both a Band 1 and a Band 2.  As such I've been spending a lot of time running and 
 walking on our treadmill and I am always looking for ways to entertain myself.  We were inspired by this to create the Virtual Band.  An app 
 that allows you to run through a landscape of your choice using just your treadmill, a tablet and your Microsoft Band.
 
