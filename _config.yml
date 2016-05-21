@@ -42,7 +42,7 @@ markdown: kramdown
 permalink:        pretty
 
 # Pagination config
-paginate: 10
+paginate: 5
 
 # Files/Folders to be excluded from generated _site folder
 exclude: 
