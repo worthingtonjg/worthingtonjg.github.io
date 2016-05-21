@@ -6,8 +6,8 @@ banner_image: sample-banner-image-3.jpg
 ---
 
 <div>
-  {% for post in site.posts %}
-    {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
+  {% for project in site.projects %}
+    {% capture currentyear %}{{project.date | date: "%Y"}}{% endcapture %}
     {% if currentyear != year %}
       {% unless forloop.first %}
       </ul>
@@ -16,6 +16,11 @@ banner_image: sample-banner-image-3.jpg
       <ul>
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
-    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    <li><a href="{{ project.url | prepend: site.baseurl }}">{{ project.title }}</a></li>
 {% endfor %}
 </div>
+
+{% for project in site.tags.Play %}
+<h2>{{ project.title }}</h2>
+<time>{{ project.date }}</time>
+{% endfor %}
