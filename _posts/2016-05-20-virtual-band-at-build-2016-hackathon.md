@@ -162,17 +162,11 @@ Links:
 
 Before Optimization and Image Effects (running at 40 fps):
 
-
+![Before Optimization](/assets/images/virtual-band-before.png)
 
 After Optimizations and Image Effects (running at 60+ fps)
 
-
-
-
-
-
-
-
+![After Optimization](/assets/images/virtual-band-after.png)
 
 ##What's next for Virtual Band 
 
