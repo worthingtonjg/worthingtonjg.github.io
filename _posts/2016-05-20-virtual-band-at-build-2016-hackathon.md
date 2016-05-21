@@ -66,7 +66,7 @@ Edit->Project Settings->Editor.  Here is a link that talks about this:
 In the build settings in Unity you need to make sure to check the box for "Unity C# Projects".  This allows you to debug your c# scripts in Visual 
 studio when running your output project.  This link discuss why you should do this:
 
-<http://docs.unity3d.com/Manual/windowsstore-debugging.html>
+<http://docs.unity3d.com/Manual/windowsstore-debugging.html>{:target="_blank"}
 
 ### Outputting the Windows Store App from Unity
 
@@ -112,7 +112,7 @@ The Sensor Data we are consuming is:
 
 Overall using the band API's was pretty easy.  For more information on using the Microsoft Band API see the links below:
 
-<https://developer.microsoftband.com/>
+<https://developer.microsoftband.com/>{:target="_blank"}
 
 ### SignalR and Azure
 
@@ -122,8 +122,8 @@ any other connected clients.
 
 Below are some links to some tutorials we followed to help implement this...
 
-<http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>
-<http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>
+<http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>{:target="_blank"}
+<http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>{:target="_blank"}
 
 ### Unity and AppCallback
 
@@ -135,8 +135,8 @@ send messages to and from Unity.
 
 Below are some links documenting how this is done.
 
-http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html
-http://docs.unity3d.com/Manual/windowsstore-examples.html
+<http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html>{:target="_blank"}
+<http://docs.unity3d.com/Manual/windowsstore-examples.html>{:target="_blank"}
 
 By using the AppCallback class we where able to use the Band Libraries and SignalR libraries in our Windows 10 application and send messages to and from 
 the Unity player.  However, this meant we had to make changes to the project that Unity generates when it builds.  It turned out that this is not a problem 
@@ -156,9 +156,9 @@ to do it justice.
 
 Links:
 
-<http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>
-<https://www.assetstore.unity3d.com/en/#!/content/3224>
-<https://www.assetstore.unity3d.com/en/#!/content/44225>
+<http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>{:target="_blank"}
+<https://www.assetstore.unity3d.com/en/#!/content/3224>{:target="_blank"}
+<https://www.assetstore.unity3d.com/en/#!/content/44225>{:target="_blank"}
 
 Before Optimization and Image Effects (running at 40 fps):
 
@@ -184,5 +184,5 @@ We had a great time at the Hackathon - thanks Microsoft Build!
 
 ##Source Code and Devpost Links
 
-<https://github.com/worthingtonjg/virtualband>
-<http://devpost.com/software/virtual-band-0xcgwp>
+<https://github.com/worthingtonjg/virtualband>{:target="_blank"}
+<http://devpost.com/software/virtual-band-0xcgwp>{:target="_blank"}
