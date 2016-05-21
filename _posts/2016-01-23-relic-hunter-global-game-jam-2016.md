@@ -207,7 +207,7 @@ OnTriggerEnter:
 ## Links:
 
 - Jam Site: [IGDA Salt Lake City](http://globalgamejam.org/2016/jam-sites/igda-salt-lake-city){:target="_blank"}
-- Dev Post: <http://devpost.com/software/relic-hunter>
-- GitHub: <https://github.com/worthingtonjg/RelicHunter>
-- Play At: <http://www.wetechgroup.com/UnityGames/RelicHunter/index.html>
+- Dev Post: <http://devpost.com/software/relic-hunter>{:target="_blank"}
+- GitHub: <https://github.com/worthingtonjg/RelicHunter>{:target="_blank"}
+- Play At: <http://www.wetechgroup.com/UnityGames/RelicHunter/index.html>{:target="_blank"}
 - Xbox Controller is required to play this game
