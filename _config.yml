@@ -3,7 +3,7 @@ title: Changing the World
 tagline: one line of code at at time!
 email: worthingtonjg@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Line of business developer in the day.  App and Game developer in the night.
+  Line of business developer in the day...  App and Game developer in the night.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://worthingtonjg.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
