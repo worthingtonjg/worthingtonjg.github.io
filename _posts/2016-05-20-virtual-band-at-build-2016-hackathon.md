@@ -42,11 +42,10 @@ Since this was for the Microsoft Build Conference we built a Universal Windows P
 
 We used:
 
-Unity3d to create the virtual world.  
-Tons of free Assets from the Unity Asset Store
-Microsoft Band API's to gather telemetry from the Microsoft Band
-SignalR and Azure websites to allow support for multi-player
-
+- Unity3d to create the virtual world.  
+- Tons of free Assets from the Unity Asset Store
+- Microsoft Band API's to gather telemetry from the Microsoft Band
+- SignalR and Azure websites to allow support for multi-player
 
 ## Challenges we ran into 
 
@@ -61,14 +60,14 @@ not manage files directly in Unity.  Having an embedded source control system wo
 You need to enable "Visible Meta Files" in Unity.  This makes Unity compatible with external source control systems.  You do this by going to 
 Edit->Project Settings->Editor.  Here is a link that talks about this:
 
-* <http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>{:target="_blank"}
+-  <http://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html>{:target="_blank"}
 
 ### Enable Unity C# Project in Unity Build Settings
 
 In the build settings in Unity you need to make sure to check the box for "Unity C# Projects".  This allows you to debug your c# scripts in Visual 
 studio when running your output project.  This link discuss why you should do this:
 
-* <http://docs.unity3d.com/Manual/windowsstore-debugging.html>{:target="_blank"}
+-  <http://docs.unity3d.com/Manual/windowsstore-debugging.html>{:target="_blank"}
 
 ### Outputting the Windows Store App from Unity
 
@@ -81,17 +80,17 @@ can make changes to the .xaml and .cs files in the Windows 10 part of the app an
 
 ### Files You Don't Check In
 
-* You should not check-in anything in the \Asset\Library\ folder
-* If you aren't making any changes to your resulting output project then you don't need to check that folder in either, since you can just regenerate it.
-* However in our case we did need to make changes to that part of the project, so had to check it in.   In this case you should not check in anything from your "bin" or "obj" folders.  We ended up checking everything else in (although we might have been overzealous here).
+- You should not check-in anything in the \Asset\Library\ folder
+- If you aren't making any changes to your resulting output project then you don't need to check that folder in either, since you can just regenerate it.
+- However in our case we did need to make changes to that part of the project, so had to check it in.   In this case you should not check in anything from your "bin" or "obj" folders.  We ended up checking everything else in (although we might have been overzealous here).
 
 ###Building the UWP application
 
 When you open up the UWP solution that gets generated, you should see three projects:
 
-* Assembly-CSharp (Universal Windows)
-* Assembly-CSharp-firstpass (Universal Windows)
-* [Your app name] (Universal Windows)
+- Assembly-CSharp (Universal Windows)
+- Assembly-CSharp-firstpass (Universal Windows)
+- [Your app name] (Universal Windows)
 
 The last project named with your project name is the actual UWP application and is what you build and deploy on your machine.  However, we seemed to get 
 build errors if we did not manually build the other two projects first.  So if you are getting errors, make sure you manually build those other two projects 
@@ -107,10 +106,10 @@ We did attempt to use the accelerator to detect movement early before distance a
 
 The Sensor Data we are consuming is:
 
-* Distance
-* Speed
-* Heart Rate
-* Calories
+- Distance
+- Speed
+- Heart Rate
+- Calories
 
 Overall using the band API's was pretty easy.  For more information on using the Microsoft Band API see the links below:
 
@@ -124,8 +123,8 @@ any other connected clients.
 
 Below are some links to some tutorials we followed to help implement this...
 
-* <http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>{:target="_blank"}
-* <http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>{:target="_blank"}
+- <http://www.asp.net/signalr/overview/deployment/using-signalr-with-azure-web-sites>{:target="_blank"}
+- <http://dotnetbyexample.blogspot.com/2015/05/using-windows-10-uwp-app-and-signalr-on.html>{:target="_blank"}
 
 ### Unity and AppCallback
 
@@ -137,8 +136,8 @@ send messages to and from Unity.
 
 Below are some links documenting how this is done.
 
-* <http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html>{:target="_blank"}
-* <http://docs.unity3d.com/Manual/windowsstore-examples.html>{:target="_blank"}
+- <http://docs.unity3d.com/Manual/windowsstore-appcallbacks.html>{:target="_blank"}
+- <http://docs.unity3d.com/Manual/windowsstore-examples.html>{:target="_blank"}
 
 By using the AppCallback class we where able to use the Band Libraries and SignalR libraries in our Windows 10 application and send messages to and from 
 the Unity player.  However, this meant we had to make changes to the project that Unity generates when it builds.  It turned out that this is not a problem 
@@ -158,9 +157,9 @@ to do it justice.
 
 Links:
 
-* <http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>{:target="_blank"}
-* <https://www.assetstore.unity3d.com/en/#!/content/3224>{:target="_blank"}
-* <https://www.assetstore.unity3d.com/en/#!/content/44225>{:target="_blank"}
+- <http://forum.unity3d.com/threads/the-secret-to-great-terrain-on-mobile.305899/>{:target="_blank"}
+- <https://www.assetstore.unity3d.com/en/#!/content/3224>{:target="_blank"}
+- <https://www.assetstore.unity3d.com/en/#!/content/44225>{:target="_blank"}
 
 Before Optimization and Image Effects (running at 40 fps):
 
@@ -182,5 +181,5 @@ We had a great time at the Hackathon - thanks Microsoft Build!
 
 ## Source Code and Devpost Links
 
-* <https://github.com/worthingtonjg/virtualband>{:target="_blank"}
-* <http://devpost.com/software/virtual-band-0xcgwp>{:target="_blank"}
+- <https://github.com/worthingtonjg/virtualband>{:target="_blank"}
+- <http://devpost.com/software/virtual-band-0xcgwp>{:target="_blank"}
