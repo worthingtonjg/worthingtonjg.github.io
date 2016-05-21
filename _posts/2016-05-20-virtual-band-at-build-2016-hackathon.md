@@ -76,8 +76,10 @@ In your Unity Build settings you can choose which platform you want to target.  
 
 When you build your project for the first time it generates all the files that you need for your UWP application. 
 
-Each subsequent build in Unity only re-generates the Unity specific files and code.  This is really important to understand, because that means you 
-can make changes to the .xaml and .cs files in the Windows 10 part of the app and retain these changes between builds. 
+**Each subsequent build in Unity only re-generates the Unity specific files and code**.  
+
+This is really important to understand, because that means you can make changes to the .xaml and .cs files in the Windows 10 part of the app and 
+retain these changes between builds. 
 
 ### Files You Don't Check In
 
@@ -85,7 +87,7 @@ can make changes to the .xaml and .cs files in the Windows 10 part of the app an
 - If you aren't making any changes to your resulting output project then you don't need to check that folder in either, since you can just regenerate it.
 - However in our case we did need to make changes to that part of the project, so had to check it in.   In this case you should not check in anything from your "bin" or "obj" folders.  We ended up checking everything else in (although we might have been overzealous here).
 
-###Building the UWP application
+### Building the UWP application
 
 When you open up the UWP solution that gets generated, you should see three projects:
 
@@ -114,7 +116,7 @@ The Sensor Data we are consuming is:
 
 Overall using the band API's was pretty easy.  For more information on using the Microsoft Band API see the links below:
 
-<https://developer.microsoftband.com/>{:target="_blank"}
+- <https://developer.microsoftband.com/>{:target="_blank"}
 
 ### SignalR and Azure
 
