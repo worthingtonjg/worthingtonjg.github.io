@@ -9,7 +9,6 @@ category:
 meta_description: 'Creating Attack Bots at the Global Game Jam 2016'
 browser_title: 'Creating Attack Bots at the Global Game Jam 2016'
 ---
-
 I took my 10 year old son to the 2016 Global Game Jam and this is the game we made together.
 
 ## Level Design
