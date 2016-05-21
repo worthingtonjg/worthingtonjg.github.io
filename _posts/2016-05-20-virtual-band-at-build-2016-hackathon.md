@@ -15,7 +15,8 @@ banner_image: virtual-band.png
 
 I attended the after conference [Hackathon](http://build-2016-hackathon.devpost.com/submissions){:target="_blank"} 
 at [Microsoft Build 2016](https://channel9.msdn.com/events/build/2016){:target="_blank"} with a couple of buddies (Alan and Matt) from work. 
-We had a ton of fun and created a pretty cool app that we named Virtual Band.
+We had a ton of fun and created a pretty cool app that we named 
+[Virtual Band](http://devpost.com/software/virtual-band-0xcgwp){:target="_blank"}.
 
 Below is a video we created at the Hackathon that documents our application (sorry for the poor quality as it was recorded with my cell phone).
 
