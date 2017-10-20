@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Artificial Intellegence and Azure Cognitive Services"
+title: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
 category: 
 - artificial intelligence
 - cognitive services
@@ -16,7 +16,7 @@ banner_image: youtube-chatbot.png
 
 This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services at the Sort 2017 conference.  I demonstrate how using a combination of cognitive services such as Speech to Text, Text to Speech, QnAMaker and Image recognition you can make a fairly intelligent chatbot that can interact with you in interesting ways.
 
-- [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip) includes my powerpoint and videos of my demo that I took just in case I didn't have internet access
+- [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access
 - [SortDemo\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo) is the code for the project, this is the Unity code
 - [SortDemo\\Output\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output) is the code for the UWP project --> this is where you want to look first
 
