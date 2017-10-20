@@ -7,17 +7,6 @@ layout: default
   {% assign post_url = post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url | %}
   <article class="post">
 
-    {% if post.banner_image %}
-    <div class="banner-image">
-      <a href="{{ post_url }}"
-        title="{{ post.title }}">
-      <img 
-          src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
-          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
-      </a>
-    </div>
-    {% endif %}
-
     <h1 class="post-title">
       <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
         {{ post.title }}
@@ -34,6 +23,17 @@ layout: default
     {{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}  
     </span>
     </p>
+
+    {% if post.banner_image %}
+    <div class="banner-image">
+      <a href="{{ post_url }}"
+        title="{{ post.title }}">
+      <img 
+          src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
+          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
+      </a>
+    </div>
+    {% endif %}
 
     {{ post.excerpt }}
     <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
