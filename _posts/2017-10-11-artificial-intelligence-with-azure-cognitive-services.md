@@ -15,7 +15,7 @@ This code was used in a presentation I gave on Artificial Intelligence and Azure
 
 - [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access
 - [SortDemo](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the project, this is the Unity code
-- [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project --> this is where you want to look first
+- [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project, this is where you want to look first
 
 - I have also uploaded pre-recorded video of me showing how the app works:
 
@@ -55,7 +55,7 @@ Take note of these for each service, so you can change the code to point to them
 
 ## QnaMaker
 
-Next you will need to go to [https://qnamaker.ai](qnamaker.ai){:target="_blank"} create an account.
+Next you will need to go to [https://qnamaker.ai]([https://qnamaker.ai){:target="_blank"} create an account.
 
 The application currently uses two services. 
 
