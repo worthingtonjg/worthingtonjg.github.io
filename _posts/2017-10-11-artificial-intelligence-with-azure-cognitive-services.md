@@ -8,7 +8,7 @@ category:
 - unity3d
 meta_description: 'Artificial Intellegence and Azure Cognitive Services'
 browser_title: 'Artificial Intellegence and Azure Cognitive Services'
-banner_image: youtube-chatbot.png
+banner_image: chatbot-banner.png
 ---
 
 This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services at the Sort 2017 conference.  I demonstrate how using a combination of cognitive services such as Speech to Text, Text to Speech, QnAMaker and Image recognition you can make a fairly intelligent chatbot that can interact with you in interesting ways.
