@@ -4,7 +4,7 @@ title: "Building a virtual chatbot using Artificial Intellegence and Azure Cogni
 category: 
 - ai
 - cognitive
--services
+- services
 - unity3d
 meta_description: 'Artificial Intellegence and Azure Cognitive Services'
 browser_title: 'Artificial Intellegence and Azure Cognitive Services'
