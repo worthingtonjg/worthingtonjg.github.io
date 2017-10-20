@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
+title: "Artificial Intellegence and Azure Cognitive Services"
 category: 
 - artificial intelligence
 - cognitive services
