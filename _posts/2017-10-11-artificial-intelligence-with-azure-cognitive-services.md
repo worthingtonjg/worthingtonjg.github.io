@@ -1,3 +1,19 @@
+---
+layout: post
+title: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
+category: 
+- unity3d
+- c#
+- signalr
+- azure
+- uwp
+- hackathon
+meta_description: 'Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services'
+browser_title: 'Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services'
+banner_image: youtube-chatbot.png
+---
+
+
 # Sort2017
 Artificial Intelligence using Azure Cognitive Services - Sort 2017 Conference
 
