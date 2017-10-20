@@ -17,19 +17,19 @@ banner_image: youtube-chatbot.png
 This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services at the Sort 2017 conference.  I demonstrate how using a combination of cognitive services such as Speech to Text, Text to Speech, QnAMaker and Image recognition you can make a fairly intelligent chatbot that can interact with you in interesting ways.
 
 - [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access
-- [SortDemo\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo) is the code for the project, this is the Unity code
-- [SortDemo\\Output\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output) is the code for the UWP project --> this is where you want to look first
+- [SortDemo\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the project, this is the Unity code
+- [SortDemo\\Output\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project --> this is where you want to look first
 
 - I have also uploaded pre-recorded video of me showing how the app works:
 
-[![Youtube Play list](/assets/images/youtube-chatbot.png)](https://www.youtube.com/watch?v=pwptUYBXa_Q&list=PL78mPPlBvBvMXcbMYHci3VEvgWWZhbOgu)
+[![Youtube Play list](/assets/images/youtube-chatbot.png)](https://www.youtube.com/watch?v=pwptUYBXa_Q&list=PL78mPPlBvBvMXcbMYHci3VEvgWWZhbOgu){:target="_blank"}
 
 
 Please note that this is a Unity project.  
 
 __But You do NOT need to open it in Unity unless you want to change the 3D model or something Unity related.__  
 
-Instead you need to open the [Output\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output) folder and open the solution there.  
+Instead you need to open the [Output\\](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} folder and open the solution there.  
 
 This is the UWP project that was generated from Unity.  This is the UWP application that you will need to run.  
 
@@ -39,7 +39,7 @@ See below for some instructions and a walk-through of the code
 
 ## License
 
-You are free to use this code anyway you want to.  However the [Salsa library](https://www.assetstore.unity3d.com/en/#!/content/16944) in Unity is __NOT__ open source.  If you are going to use this, you need to purchase a license for yourself of this software.  It is awesome and only costs $35.  It is what makes the 3D model speak in sync with the audio that is playing and is well worth the money.
+You are free to use this code anyway you want to.  However the [Salsa library](https://www.assetstore.unity3d.com/en/#!/content/16944){:target="_blank"} in Unity is __NOT__ open source.  If you are going to use this, you need to purchase a license for yourself of this software.  It is awesome and only costs $35.  It is what makes the 3D model speak in sync with the audio that is playing and is well worth the money.
 
 ## Getting Started Azure
 
@@ -58,7 +58,7 @@ Take note of these for each service, so you can change the code to point to them
 
 ## QnaMaker
 
-Next you will need to go to [https://qnamaker.ai] create an account.
+Next you will need to go to [https://qnamaker.ai]{:target="_blank"} create an account.
 
 The application currently uses two services. 
 
