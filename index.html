@@ -30,15 +30,18 @@ layout: default
         title="{{ post.title }}">
       <img 
           src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
-          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
+          alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}"
+          align=middle>
       </a>
     </div>
     {% endif %}
 
-    {{ post.excerpt }}
-    <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
-      Continue reading »
-    </a>
+    <div>
+      {{ post.excerpt }}
+      <a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
+        Continue reading »
+      </a>
+    </div>
   </article>
   {% endfor %}
 </div>
