@@ -11,24 +11,32 @@ browser_title: 'Artificial Intellegence and Azure Cognitive Services'
 banner_image: chatbot-banner.png
 ---
 
-This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services at the Sort 2017 conference.  I demonstrate how using a combination of cognitive services such as Speech to Text, Text to Speech, QnAMaker and Image recognition you can make a fairly intelligent chatbot that can interact with you in interesting ways.
+This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services at the Sort 2017 conference.  In my presentation I demonstrated how using a combination of cognitive services such as: Speech to Text, Text to Speech, QnAMaker and Image recognition you can make a fairly intelligent chatbot that can interact with you in interesting ways.
 
-- [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access
-- [SortDemo](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the project, this is the Unity code
-- [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project, this is where you want to look first
+## Youtube Video
 
-- I have also uploaded pre-recorded video of me showing how the app works:
+I created a you tube play list that shows the chatbot application I built and how it works.  It starts out by showing each cognitive service seperately.  But then combines
+the cognitive services to create a chatbot that you can interact with by just talking.
 
 [![Youtube Play list](/assets/images/youtube-chatbot.png)](https://www.youtube.com/watch?v=pwptUYBXa_Q&list=PL78mPPlBvBvMXcbMYHci3VEvgWWZhbOgu){:target="_blank"}
 
+## The Repo
 
-Please note that this is a Unity project.  
+I've posted all the files on my [Sort2017](https://github.com/worthingtonjg/Sort2017/){:target="_blank"} git hub repo.
 
-__But You do NOT need to open it in Unity unless you want to change the 3D model or something Unity related.__  
+Below is a summary of the important files:
+
+
+- [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access. 
+- [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project, this is where you want to look first.
+- [SortDemo](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the project. Please note this is a Unity Universal Windows application.
+
+
+__You do NOT need to open the project in Unity unless you want to change the 3D model or something Unity related.__  
 
 Instead you need to open the [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} folder and open the solution there.  
 
-This is the UWP project that was generated from Unity.  This is the UWP application that you will need to run.  
+This is the UWP project that was generated from Unity.  This is the UWP application that you will need to make changes to in order to point to your own azure cognitive services.
 
 This project is interesting because I did most my code in the UWP portion of the application.  So you will need to make changes to the code in the Output folder to make things work for you.  
 
