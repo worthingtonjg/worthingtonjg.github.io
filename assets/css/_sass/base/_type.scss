@@ -307,6 +307,7 @@ code {
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 2px;
+  white-space: pre;
 }
 
 pre {
@@ -328,6 +329,7 @@ pre code {
   font-size: 100%;
   color: inherit;
   background-color: transparent;
+  white-space: pre;
 }
 
 /* Pygments via Jekyll */

@@ -15,7 +15,7 @@ This code was used in a presentation I gave on Artificial Intelligence and Azure
 
 ## Youtube Video
 
-I created a you tube play list that shows the chatbot application I built and how it works.  It starts out by showing each cognitive service seperately.  But then combines
+I created a youtube play list that shows the chatbot application I built and how it works.  It starts out by showing each cognitive service seperately.  But then combines
 the cognitive services to create a chatbot that you can interact with by just talking.
 
 [![Youtube Play list](/assets/images/youtube-chatbot.png)](https://www.youtube.com/watch?v=pwptUYBXa_Q&list=PL78mPPlBvBvMXcbMYHci3VEvgWWZhbOgu){:target="_blank"}
@@ -29,8 +29,9 @@ Below is a summary of the important files:
 
 - [Presentation.zip](https://github.com/worthingtonjg/Sort2017/raw/master/Presentation.zip){:target="_blank"} includes my powerpoint and videos of my demo that I took just in case I didn't have internet access. 
 - [Output](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo/Output){:target="_blank"} is the code for the UWP project, this is where you want to look first.
-- [SortDemo](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the project. Please note this is a Unity Universal Windows application.
+- [SortDemo](https://github.com/worthingtonjg/Sort2017/tree/master/SortDemo){:target="_blank"} is the code for the unity project. 
 
+Please note this is a Unity Universal Windows application.
 
 __You do NOT need to open the project in Unity unless you want to change the 3D model or something Unity related.__  
 
