@@ -8,7 +8,8 @@ category:
 - azure
 - uwp
 - hackathon
-meta_description: 'Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services'
+meta_description: This code was used in a presentation I gave on Artificial Intelligence and Azure Cognitive Services.  I demonstrate how using a combination of cognitive services such as Speech to Text, Text to Speech, QnAMaker and Image recognition you can 
+make a fairly intelligent chatbot that can interact with you in interesting ways.'
 browser_title: 'Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services'
 banner_image: youtube-chatbot.png
 ---
