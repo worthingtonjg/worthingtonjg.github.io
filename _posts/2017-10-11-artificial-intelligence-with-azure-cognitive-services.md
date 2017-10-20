@@ -2,14 +2,15 @@
 layout: post
 title: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
 category: 
-- unity3d
+- artificial intelligence
+- cognitive services
+- unity 3d
 - c#
-- signalr
 - azure
 - uwp
-- hackathon
-meta_description: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
-browser_title: "Building a virtual chatbot using Artificial Intellegence and Azure Cognitive Services"
+- sort 2017
+meta_description: 'Artificial Intellegence and Azure Cognitive Services'
+browser_title: 'Artificial Intellegence and Azure Cognitive Services'
 banner_image: youtube-chatbot.png
 ---
 
