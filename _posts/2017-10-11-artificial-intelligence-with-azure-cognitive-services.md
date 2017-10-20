@@ -55,7 +55,7 @@ Take note of these for each service, so you can change the code to point to them
 
 ## QnaMaker
 
-Next you will need to go to [https://qnamaker.ai]([https://qnamaker.ai){:target="_blank"} create an account.
+Next you will need to go to [qnamaker.ai](https://qnamaker.ai){:target="_blank"} create an account.
 
 The application currently uses two services. 
 
