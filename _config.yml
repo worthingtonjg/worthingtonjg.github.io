@@ -1,4 +1,4 @@
-logo: # add logo name
+logo: J<span>W</span> # add logo name
 title: Jon Worthington
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -10,8 +10,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
-banner-title: # add banner title
-banner-desc: # add banner description
+banner-title: Jon Worthington - Full Stack Engineeer
+banner-desc: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."" -- Marin Fowler
 
 # Author settings
 author-pic: https://avatars2.githubusercontent.com/u/5515340?s=460&v=4 # your photo
