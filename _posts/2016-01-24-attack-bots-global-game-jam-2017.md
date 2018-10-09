@@ -8,17 +8,14 @@ category:
 - Games
 meta_description: 'Creating Attack Bots at the Global Game Jam 2016'
 browser_title: 'Creating Attack Bots at the Global Game Jam 2016'
+banner_image: attack-bots.png
 ---
-I took my 10 year old son to the 2016 Global Game Jam and this is the game we made together.
+I took my 10 year old son to the 2016 Global Game Jam and this is the game we made together.  Prior to the game jam I spent some time putting together a library of modular pieces: such as halls, intersections, tees, etc.  I let my 10 year old
+practice making levels with these pieces prior to the game jam.  I also created all the scripting and prefabs for the enemies and the player.  This allowed Ryan to use the designer during the game jam to create a level using these modular pieces and prefabs.  
 
-## Level Design
+# WebGL Demo
 
-Prior to the game jam I spent some time putting together a library of modular pieces: such as halls, intersections, tees, etc.  I let my 10 year old
-practice making levels with these pieces prior to the game jam
-
-I also created all the scripting and prefabs for the enemies and the player.  
-
-This allowed Ryan to use the designer during the game jam to create a level using these modular pieces and prefabs  
+<http://worthingtonjg.github.io/AttackBots/>{:target="_blank"}
 
 ## Prefabs
 
@@ -148,4 +145,4 @@ Purpose:
 - Jam Site: [IGDA Salt Lake City](http://globalgamejam.org/2016/jam-sites/igda-salt-lake-city){:target="_blank"}
 - Dev Post: <http://devpost.com/software/attack-bots>{:target="_blank"}
 - GitHub: <https://github.com/worthingtonjg/AttackBots>{:target="_blank"}
-- Play At: <http://www.wetechgroup.com/UnityGames/AttackBots/index.html>{:target="_blank"}
+- Play At: <http://worthingtonjg.github.io/AttackBots/>{:target="_blank"}
