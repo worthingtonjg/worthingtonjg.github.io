@@ -13,9 +13,13 @@ banner_image: attack-bots.png
 I took my 10 year old son to the 2016 Global Game Jam and this is the game we made together.  Prior to the game jam I spent some time putting together a library of modular pieces: such as halls, intersections, tees, etc.  I let my 10 year old
 practice making levels with these pieces prior to the game jam.  I also created all the scripting and prefabs for the enemies and the player.  This allowed Ryan to use the designer during the game jam to create a level using these modular pieces and prefabs.  
 
-# WebGL Demo
+## WebGL Demo
 
 <http://worthingtonjg.github.io/AttackBots/>{:target="_blank"}
+
+## Disclaimer
+
+This code was written in 48 hours for a Game Jam / Hackathon. As such there are some "hacks" and quick fixes that were implemented due to time constraints. Please keep your expectations for code quality low and keep in mind 48 hours is not a lot of time to finish a project. And much of this project was done on very little sleep.
 
 ## Prefabs
 
