@@ -206,7 +206,7 @@ OnTriggerEnter:
 
 ## Links:
 
-- Jam Site: [IGDA Salt Lake City](http://globalgamejam.org/2016/jam-sites/igda-salt-lake-city){:target="_blank"}
+- Jam Site: [IGDA Salt Lake City](https://globalgamejam.org/2016/jam-sites/igda-salt-lake-city/games){:target="_blank"}
 - Dev Post: <http://devpost.com/software/relic-hunter>{:target="_blank"}
 - GitHub: <https://github.com/worthingtonjg/RelicHunter>{:target="_blank"}
 - Play At: <http://www.wetechgroup.com/UnityGames/RelicHunter/index.html>{:target="_blank"}
