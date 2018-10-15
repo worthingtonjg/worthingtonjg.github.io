@@ -6,7 +6,7 @@ This code demonstrates how to use the Microsoft Cognitive Service Face API in a 
 
 > Please note, this was written to demonstrate how to use Azure Cognitive services.  I am not following very many (if any) good coding practices, catching very few errors, just barfing everything in the code behind, etc. If this was a production application your code would likely be more complex and involved.*
 
-## Github Repository
+## Github
 
 You can download the working code from this github repository ...
 

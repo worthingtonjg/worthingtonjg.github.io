@@ -20,7 +20,7 @@ the cognitive services to create a chatbot that you can interact with by just ta
 
 [![Youtube Play list](/assets/images/youtube-chatbot.png)](https://www.youtube.com/watch?v=pwptUYBXa_Q&list=PL78mPPlBvBvMXcbMYHci3VEvgWWZhbOgu){:target="_blank"}
 
-## The Repo
+## Github
 
 I've posted all the files on my [Sort2017](https://github.com/worthingtonjg/Sort2017/){:target="_blank"} git hub repo.
 

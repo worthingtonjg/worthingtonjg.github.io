@@ -6,6 +6,12 @@ I wrote this game for the 2017 Global Game Jam in 48 hours with a small team, in
 
 Players are racing against each other to collect the most jokes and fill their joke meter. The king has a terrible temper, and the only thing that will cheer him up is the most notable type of WAVE ~ the sound wave. All his peasants must collect jokes and funny insults to compete to become his court jester. The losers will be fed to the lions.
 
+## Github
+
+You can download the working code from this github repository ...
+
+<https://github.com/worthingtonjg/laugh-kingdom>
+
 ## Youtube Video
 
 [![Youtube Play list](/assets/images/youtube-laugh-kingdom.png)](https://www.youtube.com/watch?v=mLil2ExB2pU){:target="_blank"}

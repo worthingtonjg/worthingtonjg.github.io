@@ -11,6 +11,12 @@ This is our entry in the 2018 Global Game Jam.  The theme of the jam was *Transm
 
 As always, this code was written in 48 hours and on very little sleep.  So don't expect much quality from the code.
 
+## Github
+
+You can download the working code from this github repository ...
+
+<https://github.com/worthingtonjg/tran-ggj2018>
+
 ## WebGL Build
 
 Below is a link to the WebGL build.  However not everything works in WebGL, and I haven't taken the time to fix the problems.  The game runs better when built as an .Exe (but for those who want to try it here is a link).
